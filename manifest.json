@@ -1,5 +1,4 @@
 {
-  "browser_action": {},
   "name": "Welter",
   "version": "0.1",
   "permissions": [
@@ -8,7 +7,7 @@
   "content_scripts": [
     {
       "matches": ["http://*/*"],
-      "js": ["jquery-1.10.2.min.js", "myscript.js"],
+      "js": ["jquery-1.10.2.min.js", "content_script.js"],
       "run_at": "document_end"
     }
   ],

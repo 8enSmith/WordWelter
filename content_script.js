@@ -141,10 +141,5 @@ function recursiveReplace(node) {
     }
 }
 
-// Called when the user clicks on the browser action.
-chrome.browserAction.onClicked.addListener(function(tab) {
-  alert('test');
-});
-
 // Run the Welter as soon as the document's DOM is ready.
 recursiveReplace(document.body);
