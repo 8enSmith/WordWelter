@@ -1,0 +1,16 @@
+{
+  "browser_action": {},
+  "name": "Welter",
+  "version": "0.1",
+  "permissions": [
+    "http://*/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["http://*/*"],
+      "js": ["jquery-1.10.2.min.js", "myscript.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "manifest_version": 2
+}
