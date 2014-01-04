@@ -1,15 +1,22 @@
+// To shuffle characters a variation of the Fisher-Yates shuffling algorithm (http://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle) is used.
+// The shuffling code used (but slightly modified) can be found here http://bost.ocks.org/mike/shuffle/ 
 String.prototype.shuffle = function () {
-    var i,
-        a = this.split(""),
-        n = a.length;
+    var characters = this.split(""),
+        characterCount = characters.length, temp, indexOfRandomCharacter;
 
-    for (i = n - 1; i > 0; i--) {
-        var j = Math.floor(Math.random() * (i + 1));
-        var tmp = a[i];
-        a[i] = a[j];
-        a[j] = tmp;
-    }
-    return a.join("");
+  // While there remain elements to shuffle…
+  while (characterCount) {
+
+    // Pick a remaining element…
+    indexOfRandomCharacter = Math.floor(Math.random() * characterCount--);
+
+    // And swap it with the current element.
+    temp = characters[characterCount];
+    characters[characterCount] = characters[indexOfRandomCharacter];
+    characters[indexOfRandomCharacter] = temp;
+  }
+
+  return characters.join("");
 };
 
 var isLastCharALetter = function (input) {
