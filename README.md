@@ -1,10 +1,7 @@
 WordWelter
 ==========
 
-What is this?
--------------
-
-WordWelter is a Chrome extension which randomises the characters in all words in a webpage, except for the first and last characters.
+*WordWelter is a Chrome extension which randomises the characters in all words in a webpage, except for the first and last characters.*
 
 The inspiration for this extension is a neologism called [Typoglycemia](http://en.wikipedia.org/wiki/Typoglycemia) which is the "purported recent discovery about the cognitive processes behind reading written text".
 
@@ -18,8 +15,8 @@ The orginal text is:
 
 As you can see from tests.js, I have developed the scrambling code so that it can cope with many different types of words e.g. words ending in punctuation, words with apostrophes. However, this is not a compreshensive text parser, so let me know if you find any issues. Unlike the example taken from the aforementioned wikipedia page, for a word like "couldn't", I have choosen to fix the first character and also the last three (i.e. "n't") and then scramble all the rest; I found that the words get much harder to decipher if this approach is not taken!
 
-How is this Chrome extension installed?
----------------------------------------
+Install
+-------
 
 To install this extension:
 
@@ -42,4 +39,14 @@ To install this extension:
 The WordWelter extension will now cause all web pages to be scrambled.
 
 To disable this extension either un-check "Enabled" in "Tools -> Extensions" or remove the extension from chrome by clicking on the bin icon.
+
+Testing
+-------
+
+Test driven development (TDD) was used to develop the code found in content_script.js. [QUnit](http://qunitjs.com/) has been used to write the unit tests.
+
+License
+-------
+
+MIT
 
