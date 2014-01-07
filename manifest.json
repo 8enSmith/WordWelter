@@ -1,6 +1,6 @@
 {
   "name": "Welter",
-  "version": "0.1",
+  "version": "1.0.0",
   "permissions": [
     "http://*/*"
   ],
@@ -11,5 +11,9 @@
       "run_at": "document_end"
     }
   ],
+ // Icon picture reference : http://www.flickr.com/photos/chrisinplymouth/3836807704/
+ "icons": { "16": "WordWelterIcon16x16.png",
+            "48": "WordWelterIcon48x48.png",
+            "128": "WordWelterIcon128x128.png" },
   "manifest_version": 2
 }
