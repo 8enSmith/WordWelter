@@ -10,11 +10,11 @@ The inspiration for this extension is a neologism called [Typoglycemia](http://e
 
 For example most people can understand the following even though the text has been scrabled:
 
-    "I cdn'uolt blveiee taht I cluod aulaclty uesdnatnrd waht I was rdanieg: the phaonmneel pweor of the hmuan mnid."
+    "I cdn'uolt blveiee taht I cluod aulaclty uesdnatnrd waht I was rdanieg"
 
 The orginal text is:
 
-    "I couldn't believe that I could actually understand what I was reading: the phenomenal power of the human mind."
+    "I couldn't believe that I could actually understand what I was reading"
 
 As you can see from tests.js, I have developed the scrambling code so that it can cope with many different types of words e.g. words ending in punctuation, words with apostrophes. However, this is not a compreshensive text parser, so let me know if you find any issues.
 
