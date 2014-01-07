@@ -18,8 +18,8 @@ The orginal text is:
 
 As you can see from tests.js, I have developed the scrambling code so that it can cope with many different types of words e.g. words ending in punctuation, words with apostrophes. However, this is not a compreshensive text parser, so let me know if you find any issues. Unlike the example taken from the aforementioned wikipedia page, for a word like "couldn't", I have choosen to fix the first character and also the last three (i.e. "n't") and then scramble all the rest; I found that the words get much harder to decipher if this approach is not taken!
 
-How does one install this Chrome extension?
--------------------------------------------
+How is this Chrome extension installed?
+---------------------------------------
 
 To install this extension:
 
