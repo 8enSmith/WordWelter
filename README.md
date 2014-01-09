@@ -53,4 +53,4 @@ MIT
 Attribution
 -----------
 
-The picture used for the icon in this extesnion can be found [here](http://www.flickr.com/photos/chrisinplymouth/3836807704/) [CC License](http://creativecommons.org/licenses/by-nc-sa/2.0/)
+The picture used for the icon in this extension can be found [here](http://www.flickr.com/photos/chrisinplymouth/3836807704/) [CC License](http://creativecommons.org/licenses/by-nc-sa/2.0/)
