@@ -1,0 +1,7 @@
+Change Log
+----------
+
+1.0.2
+-----
+
+* Updated extension so that it now runs on all webpages
