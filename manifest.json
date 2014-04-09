@@ -1,21 +1,21 @@
 {
   "manifest_version": 2,
   "name": "Word Welter",
-  "version": "1.0.1",
+  "version": "1.0.2",
  
   "description": "Word Welter scrambles the characters in all words in a webpage, except for the first and last.",
   "icons": { "16": "WordWelterIcon16x16.png",
-            "48": "WordWelterIcon48x48.png",
-            "128": "WordWelterIcon128x128.png" },
+             "48": "WordWelterIcon48x48.png",
+             "128": "WordWelterIcon128x128.png" },
  
   "permissions": [
-    "http://*/*"
+    "<all_urls>"
   ],
   "content_scripts": [
     {
-      "matches": ["http://*/*"],
+      "matches": ["<all_urls>"],
       "js": ["jquery-1.10.2.min.js", "content_script.js"],
-      "run_at": "document_end"
+      "all_frames": true
     }
   ]
 }
