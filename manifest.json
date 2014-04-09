@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Word Welter",
-  "version": "1.0.1",
+  "version": "1.0.2",
  
   "description": "Word Welter scrambles the characters in all words in a webpage, except for the first and last.",
   "icons": { "16": "WordWelterIcon16x16.png",
