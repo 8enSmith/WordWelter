@@ -5,3 +5,8 @@ Change Log
 -----
 
 * Updated extension so that it now runs on all webpages.
+
+1.1.0
+-----
+
+* Added a browser button so that the word scrambling functionality can be toggled on/off. The default value is off.
