@@ -40,6 +40,8 @@ The Word Welter extension will now cause all web pages to be scrambled.
 
 To disable this extension either un-check "Enabled" in "Tools -> Extensions" or remove the extension from chrome by clicking on the bin icon.
 
+Note that the word scrambling functionality is initially disabled. To enable it, click the Word Welter browser button. This button toggles the word scrambling functionality on and off.
+
 Testing
 -------
 
