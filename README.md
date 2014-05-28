@@ -18,7 +18,11 @@ As you can see from tests.js, I have developed the scrambling code so that it ca
 Install
 -------
 
-To install this extension:
+You can get this extension directly from the Chrome Web Store:
+
+https://chrome.google.com/webstore/detail/word-welter/ahmpgoebcklpogmobamdjliigbncofep
+
+Alternatively, to install this extension from the GitHub source follow these instructions:
 
 1. Download the following files and place them into the same directory:
 
