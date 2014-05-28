@@ -1,14 +1,14 @@
 {
   "manifest_version": 2,
   "name": "Word Welter",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "browser_action": {
     "default_icon": { 
         "19": "WordWelterIcon19x19_Off.png"
     },
     "default_title": "Word Welter Off"
   },
-  "description": "Word Welter scrambles the characters in all words in a webpage, except for the first and last.",
+  "description": "Word Welter demonstrates typoglycemia by scrambling the characters in all words in a webpage, except for the first and last.",
   "icons": { "16": "WordWelterIcon16x16.png",
              "48": "WordWelterIcon48x48.png",
              "128": "WordWelterIcon128x128.png" },
