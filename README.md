@@ -1,9 +1,7 @@
 Word Welter
 ===========
 
-*Word Welter is a Chrome extension which randomises the characters in all words in a webpage, except for the first and last.*
-
-The inspiration for this extension is a neologism called [Typoglycemia](http://en.wikipedia.org/wiki/Typoglycemia) which is the "purported recent discovery about the cognitive processes behind reading written text".
+The inspiration for this Google Chrome extension is a neologism called [Typoglycemia](http://en.wikipedia.org/wiki/Typoglycemia) which is the "purported recent discovery about the cognitive processes behind reading written text".
 
 For example most people can understand the following even though the text has been scrambled:
 
@@ -12,6 +10,8 @@ For example most people can understand the following even though the text has be
 The original text is:
 
 > "I couldn't believe that I could actually understand what I was reading"
+
+Hence this extension scrambles all the words in a webpage, except for the first and last characters.
 
 As you can see from tests.js, I have developed the scrambling code so that it can cope with many different types of words e.g. words ending in punctuation, words with apostrophes. However, this is not a comprehensive text parser, so let me know if you find any issues. Unlike the example taken from the aforementioned Wikipedia page, for a word like "couldn't", I have chosen to fix the first character and also the last three (i.e. "n't") and then scramble all the rest; I found that the words get much harder to decipher if this approach is not taken!
 
