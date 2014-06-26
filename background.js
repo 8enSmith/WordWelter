@@ -1,14 +1,21 @@
 var toggle = false;
+
+var executeContentScript = function(){
+    chrome.tabs.executeScript({file:"content_script.js", allFrames : true });
+};
+
 chrome.browserAction.onClicked.addListener(function(tab) {
   toggle = !toggle;
   if(toggle){
-    chrome.browserAction.setIcon({path: "WordWelterIcon19x19_On.png", tabId:tab.id});
+    chrome.browserAction.setIcon({path: "WordWelterIcon19x19_On.png"});
     chrome.browserAction.setTitle({title: "Word Welter On"});
-    chrome.tabs.executeScript(tab.id, {file:"content_script.js"});
+    executeContentScript();
+    chrome.tabs.onUpdated.addListener(executeContentScript);
   }
   else{
-    chrome.browserAction.setIcon({path: "WordWelterIcon19x19_Off.png", tabId:tab.id});
+    chrome.tabs.onUpdated.removeListener(executeContentScript);
+    chrome.browserAction.setIcon({path: "WordWelterIcon19x19_Off.png"});
     chrome.browserAction.setTitle({title: "Word Welter Off"});
-    chrome.tabs.executeScript(tab.id, {code:"window.location.reload();"});
+    chrome.tabs.executeScript({code:"window.location.reload();"});
   }
 });

@@ -10,3 +10,13 @@ Change Log
 -----
 
 * Added a browser button so that the word scrambling functionality can be toggled on/off. The default value is off.
+
+1.1.1
+-----
+
+* Updated extension description
+
+1.1.2
+=====
+
+* Fixed an issue with the toggle button (the scrabling functionality was not working if a user navigated to a different page)
