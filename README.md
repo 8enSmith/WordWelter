@@ -20,7 +20,7 @@ Install
 
 You can get this extension directly from the Chrome Web Store:
 
-https://chrome.google.com/webstore/detail/word-welter/ahmpgoebcklpogmobamdjliigbncofep
+http://bit.ly/wordwelter
 
 Alternatively, to install this extension from the GitHub source follow these instructions:
 
